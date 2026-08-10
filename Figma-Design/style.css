@@ -15,7 +15,7 @@ body {
 }
 
 .Login-Card {
-    background: linear-gradient(135deg, #2A4FD0, #2f3cce);
+    background: linear-gradient(135deg, #2345bd, #1f45ce);
     padding: 30px;
     border-radius: 15px;
     text-align: center;
@@ -33,7 +33,7 @@ body {
     width: 80px;
     height: 80px;
     object-fit: cover;
-    mix-blend-mode: multiply;
+    mix-blend-mode: normal;
 }
 
 .Login-Form input {
@@ -43,7 +43,7 @@ body {
     box-sizing: border-box;
     border: 1px solid white;
     border-radius: 5px;
-    background: linear-gradient(135deg, #2A4FD0, #3d57be);
+    background: linear-gradient(135deg, #2345bd, #1f45ce);
    
 }
 .Login-Form button {
