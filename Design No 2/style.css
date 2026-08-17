@@ -1,121 +1,135 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap");
 
 :root {
-    --form-width: 300px;
-    --form-height: 45px;
+  --form-width: 300px;
+  --form-height: 45px;
 }
+
 body {
-    background-color: #073B49;
-    position: relative;
-    min-height: 100vh;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
+  background-color: #073b49;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
+
 .bg-logo {
-    position: fixed;
-    left: 30px;
-    bottom: 30px;
-    width: 70px;
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  width: 70px;
+
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .bg-vectors {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
 .login-field input,
 .password-field input {
-    background: #224957;
-    border: none;
-    width: var(--form-width);
-    height: var(--form-height);
-    border-radius: 10px;
-    box-sizing: border-box;
+  background: #224957;
+  border: none;
+  width: var(--form-width);
+  height: var(--form-height);
+  border-radius: 10px;
+  box-sizing: border-box;
 }
+
 .login-field {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
+
 .password-field {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
+
 input {
-    padding-left: 1.5rem;
-    color: #fff;
-    box-sizing: border-box;
+  padding-left: 1.5rem;
+  color: #fff;
+  box-sizing: border-box;
 }
+
 input::placeholder {
-    color: #fff;
-    font-weight: 400 !important;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+  color: #fff;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
 }
+
 h1 {
-    font-weight: 400 !important;
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    margin-top: -1.5rem;
-    
+  font-weight: 400 !important;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  margin-top: -1.5rem;
 }
+
 p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-
-
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
+
 .info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: var(--form-width);
-    margin: 0 auto 2rem;
-}
-.Remember {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding-right: 0.5rem;
-    width: 50%;
-    font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--form-width);
+  margin: 0 auto 2rem;
 }
 
- input[type="checkbox"] {
-   
-    -webkit-appearance: none;
-    background: #224957;
-    
-    width: 18px;
-    height: 17px;
-    border-radius: 3px;
-    cursor: pointer;
-    padding: 0;
+.Remember {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-right: 0.5rem;
+  width: 50%;
+  font-size: 14px;
 }
+
+input[type="checkbox"] {
+  appearance: none;
+  /* -webkit-appearance: none; */
+  background: #224957;
+
+  width: 18px;
+  height: 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0;
+}
+
 input[type="checkbox"]:checked::after {
-    content: "✔";
-    color: white;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2px;
+  content: "✔";
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
 }
+
 a {
-    color: #20DF7F;
-    font-size: 14px;
-    text-decoration: none;
+  color: #20df7f;
+  font-size: 14px;
+  text-decoration: none;
 }
+
 .button button {
-    border-radius: 10px;
-    background: #20DF7F;
-    color: white;
-    width: var(--form-width);
-    height: var(--form-height);
-    border: none;
-    font-weight: 400 !important;
-    font-size: 1rem;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background: #20df7f;
+  color: white;
+  width: var(--form-width);
+  height: var(--form-height);
+  border: none;
+  font-weight: 400 !important;
+  font-size: 1rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
 }
